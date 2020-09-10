@@ -2,7 +2,7 @@ public class CaseClosureCallOut {
  public static Boolean RunOnce = false; // Boolean runonce is avoid recursive loop
   public static void caseClosureStatus(Map<Id,Case> caseNewMap){  //This method is called from Trigger after update event  when the status of Case update to 'Closure'
     if(!caseNewMap.keySet().isEmpty()){
-       sendNotification(caseNewMap.keySet()); //Call future method for call out 
+       git sendNotification(caseNewMap.keySet()); //Call future method for call out 
     } 
   }  
   
