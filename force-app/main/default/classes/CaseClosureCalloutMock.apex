@@ -7,6 +7,6 @@ global class CaseClosureCalloutMock implements HttpCalloutMock{
      response.setHeader('Content-Type', 'application/json');
      response.setBody(responseBody);
      response.setStatusCode(200);
-     return response;     
-    }
+     return  response;     
+    } 
 }
